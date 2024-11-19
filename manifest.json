@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Keyword Filter Extension",
+  "version": "1.0",
+  "description": "Filters titles based on selected category keywords.",
+  "permissions": ["activeTab", "storage"],
+    "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
