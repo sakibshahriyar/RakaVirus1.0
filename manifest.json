@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Keyword Filter Extension",
+  "name": "RakaVirus Keyword Filter",
   "version": "1.0",
   "description": "Filters titles based on selected category keywords.",
   "permissions": ["activeTab", "storage"],
